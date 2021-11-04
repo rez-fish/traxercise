@@ -1,0 +1,73 @@
+.card {
+  padding: 2rem;
+  background: #34b676;
+  border-radius: 5px;
+  width: auto;
+  min-height: 10rem;
+  text-align: center;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.096);
+  transition: all ease 0.1s;
+  position: relative;
+}
+
+.card:hover {
+  transform: rotate(1deg);
+  transition: all ease 0.1s;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.delete {
+  position: absolute;
+  margin-top: 2rem;
+  border: none;
+  background-color: transparent;
+  color: #b63434;
+  font-size: 2rem;
+  cursor: pointer;
+  top: 50%;
+  left: 85%;
+}
+
+.delete:hover {
+  font-weight: bold;
+  transform: scale(1.5);
+  transition: all ease 0.2s;
+}
+
+.date {
+  color: rgb(0, 71, 18);
+  font-size: 1.5rem;
+}
+
+/*  */
+.list {
+  display: flex;
+  gap: 2rem;
+  flex-flow: row wrap;
+  align-items: stretch;
+  margin-top: 5rem;
+}
+
+.h1 {
+  margin-bottom: 3rem;
+}
+
+.box {
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff85;
+}

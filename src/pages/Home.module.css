@@ -1,0 +1,16 @@
+/*  */
+.list {
+  display: flex;
+  gap: 2rem;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.loading,
+.nothing {
+  text-align: center;
+  position: relative;
+  top: -2.5rem;
+  color: white;
+  font-size: 2rem;
+}

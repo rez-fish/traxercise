@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  transition: all ease 0.1s;
+}
+
+.a:hover {
+  transform: scale(1.1);
+  transition: all ease 0.1s;
+}
+
+.section {
+  background: #34b676;
+  color: white;
+}
