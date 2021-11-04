@@ -24,10 +24,11 @@ const Search = () => {
     getExercises()
   }, [update])
 
-  const newArray = exercises.map((e) => {
+  exercises.map((e) => {
     if (e.date === search) {
       display.push(e)
     }
+    return undefined
   })
 
   return (
